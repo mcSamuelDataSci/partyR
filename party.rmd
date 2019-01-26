@@ -168,6 +168,12 @@ wordcloud(c("LEARN","LOVE","COMMUNITY","GRATEFUL"),colors=c("red"),rot.per=.4)
 
 
 
+```{r, echo=F, eval=T, message=FALSE}
+file.remove("docs/index.html")
+file.copy("party.html","docs/index.html")
+```
+
+
 ```{r echo=FALSE}
 
 # p <- p + theme(axis.text = element_text(size = 15)) # changes axis labels
